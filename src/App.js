@@ -68,7 +68,6 @@ function App({ domElement }) {
           /r/{subreddit}
         </a>
       </h1>
-      <div>test</div>
       <div className='reddit_widget__inner'>
         {loading && 'Loading...'}
         {error && error}
@@ -83,6 +82,7 @@ function App({ domElement }) {
         >
           JavaScriptPros.com
         </a>
+        <div>test</div>
       </p>
     </div>
   )
